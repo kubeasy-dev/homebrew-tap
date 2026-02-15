@@ -14,22 +14,22 @@ cask "kubeasy" do
   on_macos do
     on_intel do
       url "https://github.com/kubeasy-dev/kubeasy-cli/releases/download/v#{version}/kubeasy-cli_v#{version}_darwin_amd64.tar.gz"
-      sha256 "76219078872d3cde59f18189f796ae26a8cc92afd6bfd1bf641525517c5439ab"
+      sha256 "a84d333ffd45649fd0cae0145463378e075761016d869fa8f043079704877099"
     end
     on_arm do
       url "https://github.com/kubeasy-dev/kubeasy-cli/releases/download/v#{version}/kubeasy-cli_v#{version}_darwin_arm64.tar.gz"
-      sha256 "bb8c1ed657ce61fd0337de8c2137b1f20f0b5b26bec983c832070ce93cecd0b8"
+      sha256 "d4bddf219e13967dad5034a36d77eef27121a0069e23b53cc75e1ca1cdc2616f"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/kubeasy-dev/kubeasy-cli/releases/download/v#{version}/kubeasy-cli_v#{version}_linux_amd64.tar.gz"
-      sha256 "30861ce1ed1060c12215d01a56de38d0ffc2bacb2891f54df71333eae44b67aa"
+      sha256 "4a0ed58164b8b9652d107c69d1c637bf12edc22b9073bcd17ed86755fd90cbd6"
     end
     on_arm do
       url "https://github.com/kubeasy-dev/kubeasy-cli/releases/download/v#{version}/kubeasy-cli_v#{version}_linux_arm64.tar.gz"
-      sha256 "6aecbbc9d9bddcf048262961e6aef503657f8e3d0e241adb5050de6756f3db96"
+      sha256 "02c93f48a182e22055671cbcde38b9ed2f2d7051275d32826e221c4c1aaf0ed3"
     end
   end
 
