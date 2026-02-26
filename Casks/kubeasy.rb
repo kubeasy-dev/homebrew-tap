@@ -3,7 +3,7 @@ cask "kubeasy" do
   name "kubeasy"
   desc "CLI tool to learn Kubernetes through practical challenges"
   homepage "https://kubeasy.dev"
-  version "2.5.3"
+  version "2.5.4"
 
   livecheck do
     skip "Auto-generated on release."
@@ -14,22 +14,22 @@ cask "kubeasy" do
   on_macos do
     on_intel do
       url "https://github.com/kubeasy-dev/kubeasy-cli/releases/download/v#{version}/kubeasy-cli_v#{version}_darwin_amd64.tar.gz"
-      sha256 "6998ee02ab0d83725715fe124eda9c757c3f48469f762be14def6900399b7119"
+      sha256 "3e1740ff27d6d9b5d4aa73257afd7b2ef541b90c07a0c4f902ee09b79fa2597d"
     end
     on_arm do
       url "https://github.com/kubeasy-dev/kubeasy-cli/releases/download/v#{version}/kubeasy-cli_v#{version}_darwin_arm64.tar.gz"
-      sha256 "f60637f644c7e029ba9a5486ab26cce399cc2648a6cd5f2287c143f7233ed241"
+      sha256 "aeeae20b4619d566493a110ad52bc5349cdf2242afb94a12c242533387c923a4"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/kubeasy-dev/kubeasy-cli/releases/download/v#{version}/kubeasy-cli_v#{version}_linux_amd64.tar.gz"
-      sha256 "040997b3be0b028d6e5037ea552d1fd8da0ac90bb84bfc97826b98b485639ebf"
+      sha256 "c1ac709c76d44cd32438f7d00e8b356c34564b80895afa660bc58243976d13a4"
     end
     on_arm do
       url "https://github.com/kubeasy-dev/kubeasy-cli/releases/download/v#{version}/kubeasy-cli_v#{version}_linux_arm64.tar.gz"
-      sha256 "f96e3aeabe33626bfe34606ee45d5edbb96ab6f39a6ae447325dbd231cf9c2c5"
+      sha256 "4ebba397e279bb2e3e5530fcea2c34bd3e296b6dd96e36fd1be2aa50cbeeb78c"
     end
   end
 
